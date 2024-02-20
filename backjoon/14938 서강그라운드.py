@@ -29,8 +29,8 @@ for k in range(1, len(dist_map)):
             if dist_map[i][j] > dist_map[i][k] + dist_map[k][j]:
                 dist_map[i][j] = dist_map[i][k] + dist_map[k][j]
 
-# for i in range(1, len(graph)):
-#     for j in range(1, len(graph)):
+# for i in range(1, len(dist_map)):
+#     for j in range(1, len(dist_map)):
 #         print(dist_map[i][j], end=' ')
 #     print()
 
